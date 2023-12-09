@@ -1,0 +1,1 @@
+# HTMX project configured to use a Rust backend with Axum server, Askama template engine and TailwindCSS
