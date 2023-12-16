@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="public/tailwind.css" />
-    <title>{{ title }}</title>
+    <title>Page title</title>
   </head>
-  <body>
+  <body class="bg-zinc-800">
     <h1 class="absolute top-1/2 w-full text-center text-3xl text-indigo-500">
-      HTMX + Axum + Askama + TailwindCSS
+      <p>"{{ title }}" from DB</p>
     </h1>
   </body>
 </html>
